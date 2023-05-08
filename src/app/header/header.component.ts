@@ -12,6 +12,7 @@ export class HeaderComponent implements OnInit {
 
   constructor(private oidcSecurityService: OidcSecurityService) {
   }
+
   ngOnInit(): void {
     this.oidcSecurityService.isAuthenticated$.subscribe(({isAuthenticated}) => {
       this.isAuthenticated = isAuthenticated;
