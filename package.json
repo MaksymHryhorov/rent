@@ -3,10 +3,10 @@
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
-    "start": "ng serve",
-    "build": "ng build",
-    "watch": "ng build --watch --configuration development",
-    "test": "ng test"
+    "start": "sudo ng serve",
+    "build": "sudo ng build",
+    "watch": "sudo ng build --watch --configuration development",
+    "test": "sudo ng test"
   },
   "private": true,
   "dependencies": {
